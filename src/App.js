@@ -4,6 +4,7 @@ import img from "img/magic-pattern.png";
 import { Header } from "./components/Header/Header";
 import { Card } from "./components/Card/Card";
 import { Footer } from "./components/Footer/Footer";
+import { SearchBar } from "components/SearchBar/SearchBar";
 
 export const App = () => {
   return (
@@ -15,6 +16,8 @@ export const App = () => {
         date="JANUARY 2022"
         number="01"
       />
+
+      <SearchBar primaryColor="#282627" secondaryColor="#55555" />
       <Footer
         links={[
           { name: "About", link: "#" },

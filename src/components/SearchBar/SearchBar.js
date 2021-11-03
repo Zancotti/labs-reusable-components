@@ -1,5 +1,5 @@
-import React from 'react';
-import './searchBar.css';
+import React from "react";
+import "./searchBar.css";
 
 //frame done, need to add props accordingly (also need to create var colors in css)
 
