@@ -6,7 +6,11 @@ export const Footer = ({ links, color }) => {
     <footer>
       <div className="links" style={{ color: color }}>
         {links.map((link) => {
-          return <span>{link}</span>;
+          return (
+            <a href={link.link}>
+              <span>{link.name}</span>
+            </a>
+          );
         })}
       </div>
     </footer>
